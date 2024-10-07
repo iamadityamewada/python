@@ -10,5 +10,19 @@
 
 # print((name + "\t") *num1)
 
-cgpa = float(input("Enter your CGPA: "))
-print(cgpa*10)
+# cgpa = float(input("Enter your CGPA: "))
+# print(f"Your Percentage is {cgpa*10}%")
+# print("Your Pecentage is", str(cgpa*10)+"%")
+
+# fname = input("Enter your first name:")
+# lname = input("Enter your last name:")
+# add = input("enter your address :")
+# college = input("enter your college name:")
+# print(f"Hello!, my name is {fname} {lname}, i am from {add}, i have completed my graduation from {college}")
+
+msg = input("enter your msg:")
+num = int(input("enter no:"))
+
+msg = msg[num:]
+print(msg)
+
